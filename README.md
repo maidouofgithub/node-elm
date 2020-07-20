@@ -4,7 +4,9 @@
 
 整个项目分为两部分：前台项目接口、后台管理接口，共60多个。涉及登陆、注册、添加商品、商品展示、筛选排序、购物车、下单、用户中心等，构成一个完整的流程。
 
-__注：此项目纯属个人瞎搞，不用于任何商业用途。__
+__注1：此项目纯属个人瞎搞，不用于任何商业用途。__
+
+__注2：项目预览地址和接口需要使用https访问哦！__
 
 
 # 说明
@@ -42,7 +44,7 @@ git clone https://github.com/bailicangdu/node-elm  
 
 cd node-elm
 
-npm install
+npm install 或 yarn(推荐)
 
 npm run dev
 
@@ -51,12 +53,12 @@ npm run dev
 ```
 
 
-# 效果演示
+## 效果演示
 
 #### (可在后台管理系统添加商铺，食品等数据，并在前端地址查看效果)
 
 ### 前端网址
-[前端网址戳这里](http://cangdu.org:8001/)（请用chrome手机模式预览）
+[前端网址戳这里](http://cangdu.org/elm/)（请用chrome手机模式预览）
 
 ###### 移动端扫描下方二维码
 
@@ -100,7 +102,7 @@ npm run dev
 - [x] 部署上线 -- 完成
 
 
-# API接口文档
+## API接口文档
 
 ## [接口文档地址](https://github.com/bailicangdu/node-elm/blob/master/API.md)
 
@@ -123,7 +125,7 @@ npm run dev
 
 
 
-# 项目布局
+## 项目布局
 
 ```
 .
@@ -174,7 +176,7 @@ npm run dev
 │   │   └── explain.js              解析说明
 │   └── v4
 ├── logs                            日志文件
-├── middlewares                     中间价
+├── middlewares                     中间件
 │   ├── check.js                    权限验证    
 │   └── statistic.js                API数据统计
 ├── models                          模型(数据库)
@@ -248,11 +250,6 @@ npm run dev
 
 ```
 
-
-
-
-# License
+## License
 
 [GPL](https://github.com/bailicangdu/node-elm/blob/master/COPYING)
-
-
